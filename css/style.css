@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url("../img/png/BG.png");
+  background-size: auto;
+}
+
+#player {
+  background-image: url("../img/Idle (1).png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 130px;
+  position: absolute;
+  bottom: 500px;
+}
+
+#ground {
+  position: absolute;
+  height: 100px;
+  width: 100vw;
+  background-image: url("../img/png/Tile/5.png");
+  bottom: 0;
+}
+
+.turn {
+  transform: rotateY(180deg);
+}
+
+#tree {
+  position: absolute;
+  height: 300px;
+  background-image: url("../img/png/Objects/Tree.png");
+  width: 312px;
+  bottom: 59px;
+  z-index: -4;
+}
+
+#bush {
+  position: absolute;
+  height: 74px;
+  background-image: url("../img/png/Objects/Bush (2).png");
+  width: 131px;
+  bottom: 100px;
+  z-index: -4;
+  right: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
